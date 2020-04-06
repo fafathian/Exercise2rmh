@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TUGAS</string>
+    <string name="labelapp">LOGIN USER</string>
+    <string name="un">Username</string>
+    <string name="judul_menu">Menu Hitung Bangun Datar</string>
+    <string name="ps">Password</string>
+    <string name="btn">Sign-In</string>
+    <string name="hsl">Ini Tampilan Hasil</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="h2">Tampilan Hasil Menu 2</string>
+    <string name="h3">Tampilan Hasil Menu 3</string>
+    <string name="an">Pendaftaran</string>
+    <string name="name">Nama</string>
+    <string name="email">E-mail</string>
+    <string name="telp">Telp</string>
+    <string name="dftr">Daftar</string>
+    <string name="bttn">Daftar</string>
+    <string name="masukan_name">Masukan Nama</string>
+    <string name="masukan_mail">Masukan Email</string>
+    <string name="masukan_telp">Masukan No. Telp</string>
+</resources>

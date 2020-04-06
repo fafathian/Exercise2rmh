@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn"
+    tools:context=".menuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/judul_menu"
+            android:textAlignment="center"
+            android:clickable="true"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/persegi"
+                    android:layout_width="198dp"
+                    android:layout_height="136dp"
+                    android:src="@drawable/ic_action_name" />
+
+                <ImageView
+                    android:id="@+id/persegipanjang"
+                    android:layout_width="207dp"
+                    android:layout_height="136dp"
+                    android:src="@drawable/ic_persegi_panjang" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/segitiga"
+                    android:layout_width="198dp"
+                    android:layout_height="136dp"
+                    android:src="@drawable/ic_segitiga" />
+
+                <ImageView
+                    android:id="@+id/trapesium"
+                    android:layout_width="207dp"
+                    android:layout_height="136dp"
+                    android:src="@drawable/ic_trapesium" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:layout_gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="191dp">
+
+                <ImageView
+                    android:id="@+id/lingkaran"
+                    android:layout_width="198dp"
+                    android:layout_height="136dp"
+                    android:src="@drawable/ic_bulet" />
+
+            </TableRow>
+
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:layout_marginTop="25dp"
+            android:gravity="right|bottom"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/backback"
+            android:layout_width="147dp"
+            android:layout_height="53dp"
+            android:layout_marginLeft="250dp"
+            android:src="@drawable/ic_back" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
